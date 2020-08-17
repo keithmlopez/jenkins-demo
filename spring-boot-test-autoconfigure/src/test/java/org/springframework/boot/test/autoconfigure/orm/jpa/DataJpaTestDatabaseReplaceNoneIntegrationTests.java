@@ -35,7 +35,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 @RunWith(SpringRunner.class)
 @DataJpaTest
 @AutoConfigureTestDatabase(replace = Replace.NONE)
-public class DataJpaTestWithAutoConfigureTestDatabaseReplaceNoneIntegrationTests {
+public class DataJpaTestDatabaseReplaceNoneIntegrationTests {
 
 	@Autowired
 	private TestEntityManager entities;

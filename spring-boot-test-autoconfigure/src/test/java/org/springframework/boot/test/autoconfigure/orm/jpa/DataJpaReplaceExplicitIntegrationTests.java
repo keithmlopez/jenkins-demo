@@ -40,7 +40,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 @RunWith(SpringRunner.class)
 @DataJpaTest
 @AutoConfigureTestDatabase(connection = EmbeddedDatabaseConnection.HSQL)
-public class DataJpaTestWithAutoConfigureTestDatabaseReplaceExplicitIntegrationTests {
+public class DataJpaReplaceExplicitIntegrationTests {
 
 	@Autowired
 	private TestEntityManager entities;
